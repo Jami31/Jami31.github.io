@@ -1,0 +1,184 @@
+@font-face {
+	font-family: "love1";
+	src: url("../font/lovefont1.ttf") format("truetype")
+	}
+
+@font-face {
+font-family: "love2";
+src: url("../font/lovefont2.TTF") format("truetype")
+	}
+
+@font-face {
+	font-family: "love3";
+	src: url("../font/lovefont3.ttf") format("truetype")
+	}
+
+@font-face {
+	font-family: "love4";
+	src: url("../font/lovefont4.ttf") format("truetype")
+	}
+	
+
+#typeDiv {
+	position: absolute;
+	top: 45%;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 100%;
+	height: 15%;
+	text-align: center;
+}
+
+#txt1 {
+	font-size: 22px;
+	text-align: center;
+	color: white;
+	font-family: "love4";
+}
+#txt2 {
+	font-size: 22px;
+	text-align: center;
+	color: white;
+	font-family: "love4";
+}
+#txt3 {
+	font-size: 22px;
+	text-align: center;
+	color: white;
+	font-family: "love4";
+}
+#txt4 {
+	font-size: 22px;
+	text-align: center;
+	color: white;
+	font-family: "love4";
+}
+#txt5 {
+	font-size: 22px;
+	text-align: center;
+	color: white;
+	font-family: "love4";
+}
+
+#content{
+	position: absolute;
+	top: 1%;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 100%;
+	height: 20%;
+}
+
+#together{
+	font-size: 35px;
+	text-align: center;
+	color: white;
+	font-family: "love4";
+}
+
+#timer{
+	text-align: center;
+	color: white;
+	font-family: "love4";
+}
+
+#d{
+	font-size: 24px;
+}
+
+#h{
+	font-size: 24px;
+}
+
+#m{
+	font-size: 24px;
+}
+
+#s{
+	font-size: 24px;
+}
+
+#heartTxt{
+	position: absolute;
+	display: table;
+	vertical-align: middle;
+	top: 80%;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 10%;
+	height: 8%;
+}
+
+#clickMe{
+	display: inline-block;
+	font-size: 16px;
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-family: "love2";
+}
+
+#heart{
+	width: 100%;
+	height: 100%;
+}
+
+#button{
+	background-image: url("../pic/love.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-color: transparent;
+	border: none;
+	outline: none;
+	background-position: center;
+	transition: 0.1s;
+	width: 100%;
+	height: 100%;
+
+}
+
+#button:active {
+	width: 92%;
+	height: 92%;
+}
+
+#imgTxt{
+	position: absolute;
+	display: table;
+	vertical-align: middle;
+	top: 20%;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 100%;
+	height: 50%;
+}
+
+#img{
+	display: block;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: auto;
+	height: 100%;
+}
+
+#Txt{
+	display: inline-block;
+	font-size: 22px;
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-family: "love4";
+}
+
+#tmp{
+	display: inline-block;
+	font-size: 17px;
+	width: 100%;
+	text-align: center;
+	color: white;
+}

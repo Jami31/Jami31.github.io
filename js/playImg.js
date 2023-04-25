@@ -14,11 +14,10 @@ function showImage(){
 	}
 }
 
-const audioContainer = document.getElementById("audioContainer"); 
 
 
 function play(){
-	audioContainer.play();
+
 	if(t == 0){
 		myImage.setAttribute("src", "");
 		myTxt.innerHTML = "";

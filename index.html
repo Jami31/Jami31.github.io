@@ -8,7 +8,7 @@
 	</head>
 
 	<body style="margin:0px">
-		<audio autoplay loop>
+		<audio id="audioContainer">
 			<source src="music\music.mp3" type="audio/mpeg">
 		</audio>
 		<canvas></canvas>
@@ -42,6 +42,7 @@
     	</div>		
 
 		<script >
+			const audioContainer = document.getElementById("audioContainer"); 
 			var ok = 0;
 			var flag = 1;
 			var myImage = document.getElementById("img");

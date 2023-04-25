@@ -17,7 +17,8 @@ function showImage(){
 
 
 function play(){
-
+	audioContainer.play(); 
+	
 	if(t == 0){
 		myImage.setAttribute("src", "");
 		myTxt.innerHTML = "";

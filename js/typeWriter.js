@@ -1,9 +1,9 @@
 let i = 0;
-let text1 = "Haiii Babiiii!!!";
-let text2 = "Today is a Big Day for us.";
-let text3 = "In this past year, I've come to know you as the most beautiful, kind, and loving person I've ever met.";
-let text4 = "You are my rock, my confidance, my partner in crime, and my soulmate.";
-let text5 = "You've been my constant source of strength and inspiration, and I feel so lucky to have you by my side.";
+let text1 = "HI.";
+let text2 = "We shared something truly special.";
+let text3 = "Even though we've grown apart, I will always be grateful for you.";
+let text4 = "You taught me love, kindness, and so much more.";
+let text5 = "Some things change, but the memories will always stay.";
 
 function typeWriter(text, tname){
 	if(ok == 5){
